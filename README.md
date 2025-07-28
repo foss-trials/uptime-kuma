@@ -19,7 +19,7 @@ Try it!
 
 Demo Server (Location: Frankfurt - Germany): https://demo.kuma.pet/start-demo
 
-It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by [Uptime Kuma Sponsors](https://github.com/louislam/uptime-kuma#%EF%B8%8F-sponsors).
+It is a temporary live demo, all data will be deleted after 10 minutes. Sponsored by [Uptime Kuma Sponsors](#️-sponsors).
 
 ## ⭐ Features
 
@@ -33,7 +33,7 @@ It is a temporary live demo, all data will be deleted after 10 minutes. Sponsore
 - Ping chart
 - Certificate info
 - Proxy support
-- 2FA support
+- Two-factor authentication (2FA) support
 
 ## 🔧 How to Install
 
@@ -85,7 +85,7 @@ npm install pm2 -g && pm2 install pm2-logrotate
 pm2 start server/server.js --name uptime-kuma
 ```
 
-Uptime Kuma is now running on http://localhost:3001
+Uptime Kuma is now running on <http://localhost:3001>
 
 More useful PM2 Commands
 
@@ -101,19 +101,19 @@ pm2 save && pm2 startup
 
 If you need more options or need to browse via a reverse proxy, please read:
 
-https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install
+[Advanced Installation Guide](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%94%A7-How-to-Install)
 
 ## 🆙 How to Update
 
 Please read:
 
-https://github.com/louislam/uptime-kuma/wiki/%F0%9F%86%99-How-to-Update
+[Update Guide](https://github.com/louislam/uptime-kuma/wiki/%F0%9F%86%99-How-to-Update)
 
 ## 🆕 What's Next?
 
 I will assign requests/issues to the next milestone.
 
-https://github.com/louislam/uptime-kuma/milestones
+[View Milestones](https://github.com/louislam/uptime-kuma/milestones)
 
 ## ❤️ Sponsors
 
@@ -139,11 +139,11 @@ Telegram Notification Sample:
 
 <img src="https://louislam.net/uptimekuma/3.jpg" width="400" alt="" />
 
-## Motivation
+## 💡 Motivation
 
-- I was looking for a self-hosted monitoring tool like "Uptime Robot", but it is hard to find a suitable one. One of the closest ones is statping. Unfortunately, it is not stable and no longer maintained.
+- I was looking for a self-hosted monitoring tool like "Uptime Robot", but it was hard to find a suitable one. One of the closest ones was statping. Unfortunately, it was not stable and is no longer maintained.
 - Wanted to build a fancy UI.
-- Learn Vue 3 and vite.js.
+- Learn Vue 3 and Vite.js.
 - Show the power of Bootstrap 5.
 - Try to use WebSocket with SPA instead of a REST API.
 - Deploy my first Docker image to Docker Hub.
@@ -162,23 +162,21 @@ I recommend using Google, GitHub Issues, or Uptime Kuma's subreddit for finding 
 My Reddit account: [u/louislamlam](https://reddit.com/u/louislamlam)
 You can mention me if you ask a question on the subreddit.
 
-## Contributions
+## 🤝 Contributions
 
 ### Create Pull Requests
 
-We DO NOT accept all types of pull requests and do not want to waste your time. Please be sure that you have read and follow pull request rules:
-[CONTRIBUTING.md#can-i-create-a-pull-request-for-uptime-kuma](https://github.com/louislam/uptime-kuma/blob/master/CONTRIBUTING.md#can-i-create-a-pull-request-for-uptime-kuma)
+We DO NOT accept all types of pull requests and do not want to waste your time. Please be sure that you have read and follow the pull request rules in our [Contributing Guide](https://github.com/louislam/uptime-kuma/blob/master/CONTRIBUTING.md#can-i-create-a-pull-request-for-uptime-kuma)
 
 ### Test Pull Requests
 
 There are a lot of pull requests right now, but I don't have time to test them all.
 
-If you want to help, you can check this:
-https://github.com/louislam/uptime-kuma/wiki/Test-Pull-Requests
+If you want to help, you can check the [Pull Request Testing Guide](https://github.com/louislam/uptime-kuma/wiki/Test-Pull-Requests)
 
 ### Test Beta Version
 
-Check out the latest beta release here: https://github.com/louislam/uptime-kuma/releases
+Check out the latest beta release here: [Releases Page](https://github.com/louislam/uptime-kuma/releases)
 
 ### Bug Reports / Feature Requests
 
@@ -186,11 +184,9 @@ If you want to report a bug or request a new feature, feel free to open a [new i
 
 ### Translations
 
-If you want to translate Uptime Kuma into your language, please visit [Weblate Readme](https://github.com/louislam/uptime-kuma/blob/master/src/lang/README.md).
+If you want to translate Uptime Kuma into your language, please visit the [Translation Guide](https://github.com/louislam/uptime-kuma/blob/master/src/lang/README.md).
 
 ### Spelling & Grammar
 
 Feel free to correct the grammar in the documentation or code.
-My mother language is not English and my grammar is not that great.
-
-
+My native language is not English and my grammar is not that great.
