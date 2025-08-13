@@ -2,7 +2,7 @@
     <img src="./public/icon.svg" width="128" alt="" />
 </div>
 
-# Uptime Kuma test 2
+# Uptime Kuma test 23
 
 Uptime Kuma is an easy-to-use self-hosted monitoring tool.
 
